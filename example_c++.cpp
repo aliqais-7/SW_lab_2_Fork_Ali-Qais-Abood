@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+// Define variables for the two input numbers, and for the resulting sum, sub, mul, division, and average.
    float num1, num2, sum, sub, mul, division, average;
 
    cout << "Enter two numbers: ";
@@ -12,7 +13,7 @@ int main() {
    mul = num1 * num2;
    division = num1 / num2;
    average = (num1 + num2) / 2;
-
+// ali mohammed jawad
    cout << "Sum = " << sum << endl;
    cout << "Sub = " << sub << endl;
    cout << "mul = " << mul << endl;
